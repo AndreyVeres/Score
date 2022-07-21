@@ -50,7 +50,7 @@ function styles() {
     return src(
         [
             'app/scss/style.scss',
-            'app/scss/var.scss'
+            
         ]
     )
         .pipe(scss({ outputStyle: 'compressed' }))
